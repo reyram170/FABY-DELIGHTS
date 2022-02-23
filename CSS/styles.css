@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFC286;
+}
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merryweather', serif;
+}
+body{
+  min-height: 100vh;
+  background-image: #D9D7F1;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.titulo{
+  font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.subtitulo{
+  margin: 0;
+  color: #000;
+  display: inline;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.sabor {
+  color: #fff;
+  margin: 100px 0;
+  font-size: 40px;
+  font-weight: 150;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+  font-family: 'Dancing Script', cursive;
+  margin-top: 0;
+}
+.linea-division {
+  width: 80px;
+  height: 2px;
+  background-color: #36221c;
+}
+
+
+h1{
+  margin-top: 0;
+    text-align: center;
+  color: #544179;
+    font-family: 'Merriweather', serif;
+}
+h2{
+  margin-top: 0;
+    text-align: center;
+  color: #544179;
+  font-family: 'Montez', cursive
+}
+h3{
+  margin-top: 0;
+    text-align: center;
+  color: #544179;
+  font-family: 'Merriweather', serif;
+}
+h4{
+  margin-top: 0;
+    text-align: center;
+  color: #544179;
+    font-family: 'Montez', cursive
+}
+em{
+  margin-top: 0;
+    text-align: center;
+  color: #544179;
+    font-family: "Merriweather",serif;
+}
+
+hr {
+background-color: white;
+border-style: none;
+border-top-style: dotted;
+border-color: grey;
+border-width: 3px;
+width: 2%;
+}
+
+
+.top-conteiner {
+  background-color: #D9D7F1;
+}
+.middle-conteiner {
+ background-color: #FFC286;
+}
+.bottom-conteiner {
+  background-color: white;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+
+}
+.bottom-cloud{
+  position: absolute;
+left: 300px;
+
+}
+.Leche{
+  position: relative;
+left: 50px;
+}
+
+.Limon{
+  position: relative;
+left: 50px;
+}
+
+.Uva{
+  position: relative;
+left: 50px;
+}
+.Uva1{
+  position: relative;
+left: 0px;
+}
+.center {
+  text-align: center;
+}
+
+.right{
+  position: relative;
+  right:  20px;
+  }
+.Catalago{
+  position: relative;
+  right:  70px;
+}
+.Tienda{
+  position: relative;
+  right:  20px;
+}
+
+  .left{
+    position: relative;
+    left:  250px;
+    }
+
+    .carousel {
+      min-height: 300px;
+    }
+
+    .carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 300px;
+    height: 300px;
+
+    }
+
+  .carousel .carousel-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+
+      }
+
+.carousel .indicators .indicators-item {
+  border-radius: 0;
+  transform: rotate(45deg);
+  margin: 0 15px;
+  background: #36221c;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#apple,
+#twitter,
+#github,
+#facebook {
+  font-size: 2.5em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+  padding: 11px 19px;
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+#twitter {
+  animation-delay: 0.3s;
+}
+#facebook {
+  animation-delay: 0.7s;
+}
+#github {
+  animation-delay: 0.1s;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+<style>
+body{
+  background-color: #436c94;
+  font-family: 'Raleway', sans-serif;
+}
+
+#main-conteiner{
+  padding-top: 50px;
+  text-align: inherit;
+}
+</style>
+
+.btn {
+border-radius: 3px;
+display: inline-block;
+padding: 15px 20px;
+text-decoration: none;
+
+}
+
+box-shadow: 0 1px 1px rgba (0,0,0,0.3);
+text-shadow: 0 1px 0 rgba (255,255,255,0.3);
+}
+.btn-green {
+  background-color: #54BAB9;
+  color: white;
+}
+.btn-green:hover {
+  background-color: #398AB9;
+
+}
+
+.btn-green:active {
+  background-color: #1C658C;
+}
