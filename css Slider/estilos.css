@@ -55,12 +55,12 @@ body {
 .carousel__siguiente {
 	position: absolute;
 	display: block;
-	width: 30px;
-	height: 30px;
+	width: 270px;
+	height: 270px;
 	border: none;
-	top: calc(50% - 35px);
+	top: 570px;
 	cursor: pointer;
-	line-height: 30px;
+	line-height: 10px;
 	text-align: center;
 	background: none;
 	color: black;
